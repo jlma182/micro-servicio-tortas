@@ -1,8 +1,8 @@
 const Sequelize = require("sequelize");
 
-const cakesModel = require("./models/tortas");
+const cakesModel = require("./models/cakes");
 
-const sequelize = new Sequelize("tortascasa", "postgres", "1qwerty.", {
+const sequelize = new Sequelize("cakes182", "postgres", "1qwerty.", {
    host: "127.0.0.1",
    dialect: "postgres",
 });
